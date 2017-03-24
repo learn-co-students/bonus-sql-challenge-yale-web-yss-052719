@@ -6,8 +6,8 @@ This dataset features a list of every guest Jon Stewart had as host of 'The Dail
 
 ## Instructions
 
-1. First, in the `parse.rb` file, write a script to convert the rows of this CSV into a SQL database that we can run queries against.
-2. Write a query to answer the following questions. Once you've come up with a working query, write it in the `answers.sql` file. 
+1. First, in the `parse.rb` file, write a script to convert the rows of this CSV into a SQL database that we can run queries against. How you model the domain is up to you - think about what will make this easy. You will need to create a connection to your database in the `config/environment.rb` file.
+2. Write methods to return SQL queries in the 'lib/queries.rb' file. Test them out by running `rake console`
 
 ### Questions
 
@@ -18,6 +18,10 @@ This dataset features a list of every guest Jon Stewart had as host of 'The Dail
 5. What dates did Patrick Stewart appear on the show?
 6. Which year had the most guests?
 7. What was the most popular "Group" for each year Jon Stewart hosted?
+
+### Double Bonus
+
+Set up your DB using ActiveRecord. Write methods on your models to return instances of the correct classes. 
 
 ## Resources
 + [Five Thirty Eight on Github](https://github.com/fivethirtyeight)
