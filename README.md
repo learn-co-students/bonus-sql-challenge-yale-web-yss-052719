@@ -34,5 +34,6 @@ Set up your DB using ActiveRecord. Write methods on your models to return instan
 
 + [Five Thirty Eight on Github](https://github.com/fivethirtyeight)
 + [CSV Gem](https://github.com/ruby/csv)
++ [Stack Overflow - How to Parse a CSV into a database?](http://stackoverflow.com/questions/11869039/how-do-i-import-a-csv-file-into-an-sqlite-database-with-the-sqlite3-gem-for-ruby)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/bonus-sql-challenge'>BONUS: The Daily Show with Jon Stewart Challenge</a> on Learn.co and start learning to code for free.</p>
